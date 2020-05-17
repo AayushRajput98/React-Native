@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { View, StatusBar, Platform } from 'react-native';
-import MenuNavigator from './Navigator';
-
+import MainNavigator from './NavigationComponent';
 
 class Main extends Component {
 
@@ -17,7 +16,7 @@ class Main extends Component {
                 backgroundColor: "white",
                 paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
             }}>
-                <MenuNavigator />
+                <MainNavigator />
             </View>
             );
     }

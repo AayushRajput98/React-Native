@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\MY\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-community
+  C:\Program Files\nodejs\node.exe C:\Users\MY\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-native/drawer
 
 PATH: 
   C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Users\MY\AppData\Roaming\Python\Python37\Scripts;C:\Users\MY\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\IncrediBuild;C:\Windows\System32\cmd.exe;C:\Users\MY\Downloads\dmaps-master;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\MY\AppData\Local\Microsoft\WindowsApps;C:\Users\MY\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\MY\AppData\Roaming\npm;C:\Users\MY\AppData\Local\atom\bin;C:\Users\MY\AppData\Local\GitHubDesktop\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/react-native-community: Not found
+  Error: https://registry.yarnpkg.com/@react-native%2fdrawer: Not found
       at Request.params.callback [as _callback] (C:\Users\MY\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66987:18)
       at Request.self.callback (C:\Users\MY\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140748:22)
       at Request.emit (events.js:321:20)
@@ -37,6 +37,7 @@ npm manifest:
       "eject": "expo eject"
     },
     "dependencies": {
+      "@react-native-community/masked-view": "^0.1.10",
       "expo": "~37.0.3",
       "react": "~16.9.0",
       "react-dom": "~16.9.0",
@@ -45,6 +46,7 @@ npm manifest:
       "react-native-gesture-handler": "^1.6.1",
       "react-native-safe-area-context": "^1.0.0",
       "react-native-safe-area-view": "^1.1.1",
+      "react-native-screens": "^2.7.0",
       "react-native-web": "~0.11.7",
       "react-navigation": "^4.3.9",
       "react-navigation-stack": "^2.5.1"
@@ -1188,6 +1190,11 @@ Lockfile:
       sudo-prompt "^9.0.0"
       wcwidth "^1.0.1"
       ws "^1.1.0"
+  
+  "@react-native-community/masked-view@^0.1.10":
+    version "0.1.10"
+    resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
+    integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
   
   "@react-navigation/core@^3.7.6":
     version "3.7.6"
@@ -4486,6 +4493,11 @@ Lockfile:
     integrity sha512-bbLCtF+tqECyPWlgkWbIwx4vDPb0GEufx/ZGcSS4UljMcrpwluachDXoW9DBxhbMCc6k1V0ccqHWN7ntbRdERQ==
     dependencies:
       hoist-non-react-statics "^2.3.1"
+  
+  react-native-screens@^2.7.0:
+    version "2.7.0"
+    resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.7.0.tgz#2d3cf3c39a665e9ca1c774264fccdb90e7944047"
+    integrity sha512-n/23IBOkrTKCfuUd6tFeRkn3lB2QZ3cmvoubRscR0JU/Zl4/ZyKmwnFmUv1/Fr+2GH/H8UTX59kEKDYYg3dMgA==
   
   react-native-status-bar-height@^2.2.0:
     version "2.5.0"
